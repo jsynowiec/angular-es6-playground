@@ -1,0 +1,29 @@
+{
+  "name": "angular-es6-playground",
+  "version": "0.0.0",
+  "description": "Some fun with AngularJS 1.x and ES6",
+  "scripts": {
+    "build": "webpack -p --progress",
+    "start": "webpack-dev-server --inline --hot"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "css-loader": "^0.23.0",
+    "eslint": "^1.9.0",
+    "eslint-plugin-angular": "^0.14.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.1",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-ui-router": "^0.2.15"
+  }
+}
