@@ -1,0 +1,5 @@
+<div>
+  <ul ng-repeat="country in clctrl.countries track by country.alpha3Code">
+    <li ui-sref="country({ countryCode: country.alpha3Code })">{{country.name}}</li>
+  </ul>
+</div>
