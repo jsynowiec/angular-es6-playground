@@ -1,4 +1,5 @@
 <div class="container">
+  <loader ng-hide="clctrl.countries.length"></loader>
   <div class="row">
     <div class="five columns">
       <ul ng-repeat="country in clctrl.countries track by country.alpha3Code">

@@ -6,8 +6,9 @@ import uirouter from 'angular-ui-router';
 
 import routing from './app.config';
 
+import common from './common';
 import home from './home';
 import countries from './countries';
 
-angular.module('app', [uirouter, home, countries])
+angular.module('app', [uirouter, common, home, countries])
   .config(routing);
