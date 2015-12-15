@@ -1,5 +1,12 @@
-<div>
-  <ul ng-repeat="country in clctrl.countries track by country.alpha3Code">
-    <li ui-sref="country({ countryCode: country.alpha3Code })">{{country.name}}</li>
-  </ul>
+<div class="container">
+  <div class="row">
+    <div class="five columns">
+      <ul ng-repeat="country in clctrl.countries track by country.alpha3Code">
+        <li ng-click="clctrl.selectCountry(country)">{{country.name}}</li>
+      </ul>
+    </div>
+    <div class="seven columns">
+      <country-details country="clctrl.country"></country-details>
+    </div>
+  </div>
 </div>

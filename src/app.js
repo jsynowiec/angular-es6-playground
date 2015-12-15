@@ -1,3 +1,4 @@
+require('skeleton-scss/scss/skeleton.scss');
 require('./app.scss');
 
 import angular from 'angular';

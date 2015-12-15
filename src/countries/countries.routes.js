@@ -7,11 +7,5 @@ export default function routes($stateProvider) {
       template: require('./countrylist.html'),
       controller: 'CountryListController',
       controllerAs: 'clctrl'
-    })
-    .state('country', {
-      url: '/countries/:countryCode',
-      template: require('./country.html'),
-      controller: 'CountryController',
-      controllerAs: 'cctrl'
     });
 }
